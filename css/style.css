@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+html{
+
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/*header section start from here*/
+.navbar .nav-item .nav-link{
+
+    font-size: 17px;
+    color: #fff;
+    padding-left: 20px;
+}
+.navbar .navbar-brand{
+
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+/*header section end here*/
+
+/*top sale section start from here*/
+
+#top-sale h4{
+
+    font-size: 20px;
+
+}
+#top-sale .ratting{
+
+    font-size: 12px;
+
+}
+#top-sale button{
+
+    font-size: 12px;
+}
+#top-sale .owl-carousel .item .product{
+
+    overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img{
+
+    transition: transform .5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover{
+
+    transform: scale(1.1);
+}
+#top-sal .owl-carousel .owl-nav button{
+
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#top-sal .owl-carousel .owl-nav button.owl-prev{
+
+    left: 0;
+    font-style: 35px;
+}
+/*top sale section end here*/
+
+/*Special Price section start form here*/
+
+#special-price h4{
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#special-price .grid .grid-item{
+
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+#special-price .btn{
+
+    font-size: 15px;
+}
+
+/*Special Price section end here*/
+
+/*new-phone section start form here*/
+#new-phone h4{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*new-phone section end here*/
+
+/*latest-blog section start form here*/
+
+#latest-blog h4{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+#latest-blog h5{
+
+    font-size: 16px;
+}
+#latest-blog p{
+
+    font-size: 14px;
+    color: black;
+}
+#latest-blog a{
+
+    font-size: 14px;
+    color: #26b6d3;
+}
+
+/*latest-blog section end here*/
+
+/*product section start form here*/
+
+#product button{
+
+    font-size: 16px;
+}
+#product h5{
+
+    font-size: 20px;
+}
+#product small{
+
+    font-size: 14px;
+}
+#product i{
+
+    font-size: 14px;
+}
+#product a{
+
+    font-size: 16px;
+}
+#product table tr{
+
+    font-size: 14px;
+}
+span.text-danger.big {
+    font-size: 20px;
+}  
+
+span.fas.fa-retweet.border.p-3.rounded-pill {
+    color: #3BB3A8;
+    font-size: 20px;
+}
+span.fas.fa-truck.border.p-3.rounded-pill {
+    color: #3BB3A8;
+    font-size: 20px;
+}
+span.fas.fa-check-double.border.p-3.rounded-pill {
+    color: #3BB3A8;
+    font-size: 20px;
+}
+#policy a{
+
+    font-size: 12px;
+}
+.color.my-3 h6 {
+    font-size: 15px;
+}
+.bg-yellow.p-2.h-25.rounded-circle {
+
+    background: #FDD090;
+    border-radius: 50%;
+    width: 30px;
+    height: 150px;
+}
+.bg-primary.p-2.h-25.rounded-circle {
+
+    background: #063A56 !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 150px;
+} 
+.bg-second.p-2.h-25.rounded-circle {
+
+    background: #0DB4C0;
+    border-radius: 50%;
+    width: 30px;
+    height: 150px;
+}
+.qty.d-flex h6 {
+    font-size: 15px;
+}
+.size.my-3 h6 {
+    font-size: 15px;
+}
+h6.mt-5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+p.para {
+    font-size: 15px;
+}
+/*product section start form here*/
+
+/*shopping cart section start form here*/
+
+#shopping_cart h5{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+small.by_sam {
+    font-size: 14px;
+}
+
+button.btn.text-danger.px-3.border-right {
+    font-size: 15px;
+}
+button.btn.text-danger {
+    font-size: 15px;
+}
+span.pri {
+    font-size: 20px;
+}
+h6.order_eligible.text-success {
+    font-size: 12px;
+}
+button.btn.btn-warning {
+    font-size: 15px;
+}
+/*shopping cart section end here*/
+
+/*footer section start from here*/
+
+#footer h4{
+
+    font-size: 20px;
+}
+#footer p{
+
+    font-size: 14px;
+}
+#footer a{
+
+    font-size: 14px;
+}
+
+
+/*footer section end here*/
+
+/*loader here*/
+.loader{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+/* scrolling here*/
+#myBtn{
+
+    display: none;   
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background: #198754;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all linear .2s;
+}
+#myBtn:hover{
+
+    background: #FFCA2C;
+}
